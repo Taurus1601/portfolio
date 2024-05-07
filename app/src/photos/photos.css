@@ -1,0 +1,66 @@
+ .grid-div1{
+    @apply w-[49.5vw] h-[50vh] relative ;
+}
+.grid-div1 >img {
+    @apply rounded-md ;
+
+}
+
+
+.grid-div2{
+    @apply w-[49.5vw] h-[50vh]   ;
+}
+.img 
+{
+    width:100%;
+    height :100% ;
+    @apply m-0;
+}
+body {
+    @apply overflow-x-hidden;
+}
+.span1 {
+    @apply mt-5 relative ml-3 grid grid-cols-2 gap-0
+}
+.span1 >img {
+   @apply rounded-lg m-1 scale-100 
+}
+
+
+ .span1 >img:nth-child(1){
+    transform: translate(36px,0)rotate(-15deg);
+}
+
+.span1 >img:nth-child(2){
+    
+    transform: translate(-7px,0) rotate(-5deg);
+}
+
+.span1 >img:nth-child(3){
+    transform: translate(20px,0) rotate(-5deg);
+   
+}
+
+.span1 >img:nth-child(4){
+    
+    transform: translate(-7px,0) rotate(10deg);
+  
+}
+
+.span1 >img:nth-child(5){
+    @apply absolute top-16 left-44;
+    z-index: 99;
+}
+.span1 >img:nth-child(6){
+    @apply absolute -top-5 right-20 scale-75 ;
+    transform: rotate(40deg);
+    z-index: 80;
+}
+.span1 >img:nth-child(7){
+    @apply absolute top-0 left-0 scale-75;
+    transform: rotate(40deg);
+    z-index: 70;
+}
+
+
+   
