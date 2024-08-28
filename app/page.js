@@ -42,7 +42,7 @@ const GlowingCube = dynamic(() => import('./Components/sphere/cube'), { ssr: fal
  // Full page reload
     setpresence(false)
     
-    }, 4200);
+    }, 4500);
   
     // return () => clearTimeout(timer);
   }, []);
