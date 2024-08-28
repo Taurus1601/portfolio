@@ -1,11 +1,10 @@
 "use client";
 import React, { useEffect } from "react";
-import { delay, motion, steps, AnimatePresence, animate } from "framer-motion";
+import { motion, AnimatePresence} from "framer-motion";
 
 
 function Loader({children}) {
     const [presence , setPresence] = React.useState(false);
-    const [intro , setIntro] = React.useState(false);
 
     const[windowWidth, setWindowWidth] = React.useState(0);
     
