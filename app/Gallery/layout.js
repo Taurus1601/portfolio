@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import NavigationBar from "../Navigationbar/navigatebar";
 import Menu from "../Navigationbar/menu";
 import Loader from "../Loading/Loader";
-function layout({ children }) {
+function Layout({ children }) {
   const [menu , setMenu] = React.useState(false)
 
   return (

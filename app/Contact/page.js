@@ -9,11 +9,7 @@ function Page() {
   const [letsconnect , setLetsConnect] = React.useState(false);
   const [mailme , setMailMe] = React.useState(false);
   const [menu , setMenu] = React.useState(false)
-  const w= window.innerWidth;
-  useEffect(() => {
-    
-    console.log(w/35 ,window.innerWidth);
-  }, []);
+
 
   
 

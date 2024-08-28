@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import NavigationBar from "../Navigationbar/navigatebar";
 import Menu from "../Navigationbar/menu";
 
-function layout({ children }) {
+function Layout({ children }) {
   const [menu , setMenu] = React.useState(false)
   return (
     <div className="flex flex-row h-[100vh]">
@@ -57,7 +57,7 @@ function layout({ children }) {
   );
 }
 
-export default layout;
+export default Layout;
 
 // cut navigation menu from all layout and make a new nav component\
 // and import it in all layout use userouter hook to to know the current page 

@@ -1,7 +1,6 @@
 "use client";
 import React from 'react'
 import NavigationBar from './navigatebar'
-import Paragraph from '../Components/FrameHome/paragraph'
 import Menu from './menu';
 
 

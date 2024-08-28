@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const GlowingCube = dynamic(() => import('./Components/sphere/cube'), { ssr: false });
 
 
- function page() {
+ function Page() {
   const [x, setX] = useState(0);
   const [y, setY] = useState(0);
   const [presence, setpresence] = useState(true);
@@ -70,4 +70,4 @@ const GlowingCube = dynamic(() => import('./Components/sphere/cube'), { ssr: fal
   )
 }
 
-export default page
+export default Page

@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react'
+import React from 'react'
 import LayoutLoad from './layoutLoad'
 import dynamic from 'next/dynamic'
 
@@ -7,7 +7,7 @@ const Content = dynamic(() => import('./home'), {
   ssr: false,
 });
 
-function Home() {
+function Page() {
   return (
     <div className='xl:scale-105 xl:ml-20'>
         <Content/>
@@ -15,7 +15,7 @@ function Home() {
   )
 }
 
-export default Home
+export default Page
 
 
 

@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic';
 const GlowingCube = dynamic(() => import('../Components/sphere/cube'), { ssr: false });
 
 
- function page() {
+ function Page() {
   const [x, setX] = useState(0);
   const [y, setY] = useState(0);
 
@@ -56,4 +56,4 @@ const GlowingCube = dynamic(() => import('../Components/sphere/cube'), { ssr: fa
   )
 }
 
-export default page
+export default Page
